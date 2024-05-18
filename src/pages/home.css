@@ -1,0 +1,143 @@
+.home {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.home h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+    justify-content: flex-start;
+}
+
+.roles {
+    display: flex;
+    font-family: 'Lato';
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
+.role {
+    padding: 20px;
+    font-weight: 100;
+    font-size: 1.8rem;
+
+}
+.animated-text {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+.home .hi {
+    font-family: "Lato";
+    font-weight: 100;
+}
+
+.home .navs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: fit-content;
+    margin-top: 10%;
+}
+
+.home .navs button {
+    margin: 0;
+    padding: 0;
+    border: 1px solid #fff;
+    height: 200px;
+    background: none;
+    color: #fff;
+    font-family: "OCR A Extended", monospace;
+    width: 50%;
+    font-size: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.home .navs button:hover::after{
+    left: 10%;
+    top: -90%;
+}
+
+.home .navs button:hover::before {
+    left: -90%;
+    top: 10%;
+}
+
+.home .navs a:hover {
+    color: #000;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.home .navs button::after,
+.home .navs button::before {
+    content: "";
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: #fff;
+    z-index: -1;
+    transition: all .4s ease-in-out;
+    transform: rotate(45deg);
+}
+.home .navs button::before {
+    left: -300%;
+    top: 200%;
+}
+.home .navs button::after {
+    left: 160%;
+    top: -100%;
+}
+
+
+.home .navs a {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+@media screen and (max-width: 768px) {
+    .home h1 {
+        font-size: 2.5rem;
+    }
+
+    .home .role {
+        font-size: 1.4rem;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .home .navs button {
+        width: 45%;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 2s ease-in-out;
+}

@@ -1,0 +1,39 @@
+.view {
+    margin: 20px;
+    border: 1px solid #fff;
+    min-height: calc(100vh - 42px);
+    border-radius: 20px;
+    font-family: 'Roboto Mono', "Helvetica Neue", Helvetica, Arial;
+}
+
+.route {
+    min-height: calc(100vh - 142px - 80px);
+    /* width: 100%; */
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+    opacity: 1;
+}
+
+.route.active {
+    opacity: 0;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 20px;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .view {
+        margin: 0;
+        border: none;
+        min-height: calc(100vh - 42px - 80px);
+        border-radius: 0;
+    }
+    
+}

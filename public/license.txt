@@ -1,0 +1,11 @@
+Model Information:
+* title:	Eye Implant
+* source:	https://sketchfab.com/3d-models/eye-implant-e988ba5725fe4111b82f945a068c7c81
+* author:	niver_mk (https://sketchfab.com/niver_mk)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Eye Implant" (https://sketchfab.com/3d-models/eye-implant-e988ba5725fe4111b82f945a068c7c81) by niver_mk (https://sketchfab.com/niver_mk) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
