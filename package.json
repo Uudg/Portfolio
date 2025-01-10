@@ -18,6 +18,7 @@
     "@remix-run/serve": "^2.15.2",
     "@supabase/supabase-js": "^2.47.10",
     "@types/three": "^0.171.0",
+    "@vercel/analytics": "^1.4.1",
     "axios": "^1.7.9",
     "date-fns": "^4.1.0",
     "framer-motion": "^11.15.0",
