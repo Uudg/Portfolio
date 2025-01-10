@@ -1,0 +1,15 @@
+.bg {
+    position: fixed;
+    width: 100lvw;
+    height: 100lvh;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
+    left: 0;
+    top: 0;
+    background: linear-gradient(to right, #161616, #000000);
+}
+
+.bg-scene {
+    opacity: 0.5;
+}
